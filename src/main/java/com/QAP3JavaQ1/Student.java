@@ -25,7 +25,7 @@ public class Student  extends Person{
     public void setGpa() {
         this.gpa = gpa;
     }
-    public String toString() {return name + ", age: " + age + ", gender: " + gender + ", IDNum: " + idNum + ", GPA: " + gpa;}
+    public String toString() {return super.toString() + ", IDNum: " + idNum + ", GPA: " + gpa;}
 }
 
 

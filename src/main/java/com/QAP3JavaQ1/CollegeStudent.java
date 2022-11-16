@@ -11,7 +11,6 @@ public class CollegeStudent extends Student{
         public int getYear(){
             return year;
         }
-
         public String getSubject(){
             return subject;
         }
@@ -23,6 +22,6 @@ public class CollegeStudent extends Student{
         {
             this.subject = subject;
         }
-        public String toString() {return name + ", age: " + age + ", gender: " + gender + ", IDNum: " + idNum + ", GPA: " + gpa + ", Year: " + year + ", Subject: " + subject;}
+        public String toString() {return super.toString() + ", Year: " + year + ", Subject: " + subject;}
 }
 

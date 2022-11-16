@@ -24,6 +24,6 @@ public class Teacher extends Person{
     public void setSalary(){
         this.salary = salary;
     }
-    public String toString() {return name + ", age: " + age + ", gender: " + gender + ", Subject: " + subject + ", Salary: " + salary;}
+    public String toString() {return super.toString() + ", Subject: " + subject + ", Salary: " + salary;}
 }
 

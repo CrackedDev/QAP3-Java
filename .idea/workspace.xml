@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f17231-372a-431a-a054-650bc0776719" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/QAP3Java/CollegeStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/QAP3Java/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/QAP3Java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/QAP3Java/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/QAP3Java/Teacher.java" afterDir="false" />
+    <list default="true" id="72f17231-372a-431a-a054-650bc0776719" name="Changes" comment="inital commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QAP3JavaQ2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QAP3JavaQ2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QAP3JavaQ2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QAP3JavaQ2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/QAP3JavaQ2/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/QAP3JavaQ1/CollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QAP3JavaQ1/CollegeStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +47,39 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.QAP3JavaQ1.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.QAP3Java.Demo" />
+      <option name="MAIN_CLASS_NAME" value="org.QAP3JavaQ1.Demo" />
       <module name="QAP3Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.QAP3Java.*" />
+          <option name="PATTERN" value="org.QAP3JavaQ1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.QAP3JavaQ1.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.QAP3JavaQ1.Demo" />
+      <module name="QAP3Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.QAP3JavaQ1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.QAP3JavaQ2.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.QAP3JavaQ2.Demo" />
+      <module name="QAP3Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.QAP3JavaQ2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,6 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.QAP3JavaQ1.Demo" />
+        <item itemvalue="Application.com.QAP3JavaQ2.Demo" />
         <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
@@ -81,6 +104,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668515238465</updated>
     </task>
+    <task id="LOCAL-00001" summary="inital commit">
+      <created>1668549657898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668549657898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,5 +124,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inital commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
   </component>
 </project>
